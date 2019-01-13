@@ -1,3 +1,4 @@
+
 body {
   margin: 0 auto;
   max-width: 50em;
@@ -10,6 +11,7 @@ body {
   background-position: center;
   position: relative;
 }
+
 h1, strong {
   color: #333;
 }
@@ -19,10 +21,15 @@ h2 {
   padding-top: 1em;
   color: #333;
 }
+
 .top-container {
-  margin: 0 auto;
-  width: auto;
+  text-align: center;
 }
+
+.middle-container-title {
+  text-align: center;
+}
+
 .innertextbox2 {}
 
 .innertextbox3 {}
@@ -55,9 +62,17 @@ h2 {
 }
 
 .box4 {
-position: absolute; right: 0;
+  position: absolute;
+  right: 0;
   height: 1000px;
   width: 1px;
   writing-mode: vertical-rl;
   padding: 2px 4px;
+}
+.bottom-container{
+background-color: rgba(250,250,250, 0.7);
+  text-align: center;
+}
+.bottom-text{
+  opacity: 1.0;
 }
