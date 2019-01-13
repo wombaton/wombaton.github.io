@@ -1,0 +1,63 @@
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #555;
+  background-image: url("http://boxwrestlefence.com/wp-content/uploads/2012/02/BWF2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+h1, strong {
+  color: #333;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+  color: #333;
+}
+.top-container {
+  margin: 0 auto;
+  width: auto;
+}
+.innertextbox2 {}
+
+.innertextbox3 {}
+
+.innertextbox4 {
+  text-orientation: upright;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 1.5em;
+}
+
+.box1 {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  padding: 2px 4px;
+}
+
+.box2 {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  writing-mode: vertical-rl;
+}
+
+.box3 {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  writing-mode: vertical-rl;
+}
+
+.box4 {
+position: absolute; right: 0;
+  height: 1000px;
+  width: 1px;
+  writing-mode: vertical-rl;
+  padding: 2px 4px;
+}
